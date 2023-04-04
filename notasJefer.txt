@@ -1,0 +1,7 @@
+VITE una herramienta de compilación que tiene como 
+objetivo proporcionar una experiencia de desarrollo más rápida y ágil para
+proyectos de desarrollo web
+
+Ahora existen unas herramientas que son mejores para el desarrollo con react
+next.js
+remix.
