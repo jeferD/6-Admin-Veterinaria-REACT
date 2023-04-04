@@ -1,0 +1,27 @@
+VITE una herramienta de compilación que tiene como 
+objetivo proporcionar una experiencia de desarrollo más rápida y ágil para
+proyectos de desarrollo web
+
+Ahora existen unas herramientas que son mejores para el desarrollo con react
+next.js
+remix.
+
+
+--------------------------------
+
+CREAR PROYECTO CON VITE PARA react
+npm init vite@latest , ESTE CREA LA CARPETA CON LOS MODULOS PARA react
+
+luego se ingresa a la carpeta, y se instalan dependencias necesarias
+npm install
+
+luego se arranca el servidor
+npm run dev
+
+--------------------------------
+
+el logo que aparece de react se encuentra en 
+/home/cristal/REACT/6-admin-veterianaria-react/citas-react/src/App.jsx
+si se decea modificar aqui se debe hacer
+
+
