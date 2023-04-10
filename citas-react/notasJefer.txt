@@ -155,6 +155,22 @@ className
 
 
 
+-----------------------------------
+
+Los props son elementos que se pasan entre componentes
+Los props se pasan del padre al hijo
+
+Por ejemplo en este proyecto el padre es App.jsx, este contiene los componetes formulario y listaPacientes
+
+se debe crear un estado const [pacientes, setPacientes] = useState([]);, este pacientes es el que se va a ir a formulario y se almacenaran los valores archivo
+
+Para recibir stados en los componentes, se debe recibir en la funcion 
+
+const Formulario = (props) => 
+
+Props trae todos los objetos, si se desea hacer destuction, se coloca
+
+const Formulario = ({setPacientes}) => {
 
 
 
@@ -163,14 +179,7 @@ className
 
 
 
-
-
-
-
-
-
-
-
+Para iterar en un componente se utiliza .map, el foreach no funciona
 
 
 
