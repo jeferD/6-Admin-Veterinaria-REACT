@@ -181,8 +181,26 @@ const Formulario = ({setPacientes}) => {
 
 Para iterar en un componente se utiliza .map, el foreach no funciona
 
+------------------------------------------------------------------
+
+Generar id unico
+
+-------------------------------------------------------------------
+el useEfect solo se ejecuta cuando un parametro cambia, por ejemplo paciente
+mientras que el useState se ejecuta siempre , 
+
+SI SE PUEDE TENER MULTIPLES useEfect EN REACT
+
+DE LA MANERA QUE SE DEFINAN LOS USEEFECT ES LA MANERA EN COMO SE ejecuta
+
+useEffect(()=>{
+  console.log(paciente)
+},[paciente])
 
 
-
+si colocamos las dependencias vacias este solo se ejecutara una vez
+useEffect(()=>{
+  console.log('Hola')
+},[])
 
 
